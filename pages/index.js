@@ -132,7 +132,7 @@ export default function Home() {
         <div className="row">
           <div className="column">
             <h3>sample videos</h3>
-            <video className="video" crossOrigin="Anonymous" src='video/foreground.mp4' id='video' width='800' height='450' autoPlay muted loop type="video/mp4" />
+            <video className="video" crossOrigin="Anonymous" src='https://res.cloudinary.com/dogjmmett/video/upload/v1658223838/production_ID_4838318_cxpbfp.mp4' id='video' width='800' height='450' autoPlay muted loop type="video/mp4" />
             <video className="video" crossOrigin="Anonymous" src='video/background.mp4' id='background' width='800' height='450' autoPlay muted loop type="video/mp4" /><br />
             {
             process =='unedited' ? 
